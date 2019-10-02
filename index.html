@@ -8,7 +8,6 @@
   <title>Fun Bus Travel Agency - Solution</title>
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
-  <script src="js/index.js" async></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
@@ -16,9 +15,9 @@
 
 </head> <!--  head element CLOSING  -->
 
-<body>
+<body id="bodysection">
 
-  <header class="main-navigation">
+  <header id = "headerstuff" class="main-navigation">
 
     <div class="container nav-container">
 
@@ -69,11 +68,11 @@
 
       <div class="img-content">
 
-          <img src="img/fun.jpg" class="img-fluid rounded" alt="Lets have fun!">
+          <img id="fun" src="img/fun.jpg" class="img-fluid rounded" alt="Lets have fun!">
 
       </div> <!-- img-content CLOSING-->
 
-      <div class="text-content">
+      <div id="text-content" class="text-content">
 
         <h2>Adventure Awaits</h2>
         <p>Adventure webdesign pretty design design, excursion cute WordPress blogger design webdesign adventure. Pretty simple traveling fun WordPress wanderlust darn simple organized.</p> 
@@ -93,7 +92,7 @@
 
     <section class="content-pick">
 
-      <div class="destination">
+      <div id="one" class="destination">
 
         <h4>Fun In The Sun</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
@@ -101,7 +100,7 @@
 
       </div> <!-- destination class CLOSING -->
 
-      <div class="destination">
+      <div id ="two" class="destination">
 
         <h4>Mountain Excursion</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
@@ -109,9 +108,9 @@
 
       </div> <!-- destination class CLOSING -->
 
-      <div class="destination">
+      <div  class="destination">
 
-        <h4>Island Getaway</h4>
+        <h4 id="three">Island Getaway</h4>
         <p>Expedition excursion design excursion fun, clean simple organized WordPress Travel colorful webdesign. Traveler blogger website design expedition clean excursion traveling.</p>
         <div class="btn">Sign Me Up!</div>
 
@@ -128,5 +127,5 @@
   </footer> <!-- footer element CLOSING -->
 
 </body> <!-- body element CLOSING -->
-
+<script src="js/index.js" async></script>
 </html> <!-- html element CLOSING -->
